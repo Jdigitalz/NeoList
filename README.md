@@ -27,4 +27,4 @@ A improved LS command with emojis, better formatting and more
    ``` 
 
 ## Usage
-![Usage Image] https://github.com/Jdigitalz/NeoList/blob/main/image/Usage_image.png?raw=true
+![Usage Image](https://github.com/Jdigitalz/NeoList/blob/main/image/Usage_image.png?raw=true)
