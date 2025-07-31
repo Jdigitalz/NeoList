@@ -113,11 +113,13 @@ def file_timestamp(filename):
 def file_size(filename):
     return str(os.stat(filename).st_size)
 
-
 def emoji_print(filename):
-    emoji = "📁" if os.path.isdir(filename) else next((extensions_values.get(
-        ext, '') for ext in extensions_values if filename.endswith(ext)), "❓")
-    return f"{emoji}{filename}"
+    if os.path.isdir(filename):
+        emoji = "📁"
+    else:
+        file_ext = os.path.splitext(filename)[1].lower()
+        emoji = extensions_values.get(file_ext, "❓")
+    return f"{emoji} {filename}"
 
 
 def dot_print(filename):
