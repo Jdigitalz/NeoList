@@ -1,3 +1,4 @@
+# NeoList📋
 ----
 An improved `ls` command with emojis, better formatting, and more.
 
@@ -5,7 +6,7 @@ An improved `ls` command with emojis, better formatting, and more.
 
 ## Installation
 
-### ðŸ”§ Windows
+### 🔧 Windows
 
 1. Clone the repository:
    ```bash
@@ -30,7 +31,7 @@ An improved `ls` command with emojis, better formatting, and more.
 
 ---
 
-### ðŸ§ Linux
+### 🐧 Linux
 
 1. Clone the repository:
    ```bash
@@ -66,6 +67,6 @@ An improved `ls` command with emojis, better formatting, and more.
 
 ---
 
-## ðŸ“¸ Usage
+## 📸 Usage
 
 ![Usage Image](https://github.com/Jdigitalz/NeoList/blob/main/image/Usage_image.png?raw=true)
