@@ -57,14 +57,17 @@ An improved `ls` command with emojis, better formatting, and more.
 
 ---
 
-## Uninstallation (Linux)
+## Uninstallation
 
-1. Uninstall NeoList:
+1. Uninstall NeoList(linux):
    ```bash
    chmod +x uninstall.sh
    sudo ./uninstall.sh
    ```
-
+2. Uninstall Neolist(Windows):
+   ```bash
+   ./uninstall_neolist.bat
+   ```
 ---
 
 ## 📸 Usage
